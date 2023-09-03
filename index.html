@@ -1,33 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Michele Cosso Fisioterapia e Pilates no bairro Jardim América">
     <title>Michele Cosso Fisioterapia e Pilates</title>
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/slider.css">
     <link rel="stylesheet" href="src/css/styles.css">
     <link rel="stylesheet" href="src/css/variables.css">
-</head>
-<body>
-    <nav class="header">
-        <div class="logo"></div>
-        <div class="menu-principal"></div>
-    </nav>
-    <main class="container">
-        <header class="intro">
 
-        </header>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+    <script src="https://kit.fontawesome.com/3a5934eb1e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+
+        <img class="logo-oficial" src="src/images/logo-oficial-2.png" alt="logo">
+
+        <nav class="menu-principal">
+            <ul class="itens">
+                <li><a class="item" href="#home">Home</a></li>
+                <li><a class="item" href="#consultorio">Consultório</a></li>
+                <li><a class="item" href="#especialidades">Especialidades</a></li>
+                <li><a class="item" href="#profissionais">Profissionais</a></li>
+                <li><a class="item" href="#diferenciais">Diferenciais</a></li>
+                <li><a class="item" href="#galeria">Galeria</a></li>
+                <li><a class="item" href="#perguntas">Perguntas</a></li>
+                <li><a class="item" href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main class="container">
+        <section class="slider">
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+
+
+                <div class="slide-box primeiro">
+                    <img class="img-desktop" src="/src/images/slide-1.jpg" alt="slide 1">
+                    <img class="img-mobile" src="/src/images/slide-mob-1.jpg" alt="slide 1">
+                </div>
+                <div class="slide-box">
+                    <img class="img-desktop" src="/src/images/slide-2.jpg" alt="slide 2">
+                    <img class="img-mobile" src="/src/images/slide-mob-2.jpg" alt="slide 2">
+                </div>
+                <div class="slide-box">
+                    <img class="img-desktop" src="/src/images/slide-3.jpg" alt="slide 3">
+                    <img class="img-mobile" src="/src/images/slide-mob-3.jpg" alt="slide 3">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn-1"></div>
+                    <div class="auto-btn-2"></div>
+                    <div class="auto-btn-3"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                </div>
+            </div>
+        </section>
 
         <section class="consultorio">
             <div class="imagem-consultorio">
-                <img src="" alt="">
+                <img src="/src/images/pilates-1.jpeg" alt="foto consultório">
             </div>
             <div class="conteudo">
                 <h2>Sobre o consultório</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure earum ullam tempore vel labore, cum, maxime perspiciatis veniam cupiditate unde molestias eveniet culpa corporis! Iure, qui quibusdam? Inventore, fugiat dolore.</p>
-                <img src="" alt="foto consultório">
-                <button>Whatsapp</button>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure earum ullam tempore vel labore, cum,
+                    maxime perspiciatis veniam cupiditate unde molestias eveniet culpa corporis! Iure, qui quibusdam?
+                    Inventore, fugiat dolore.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate amet ea inventore quos illum excepturi officiis mollitia. Perferendis quam delectus qui quo earum ex possimus ad, nisi illo aspernatur libero. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quas modi vitae in, unde itaque incidunt asperiores velit accusantium commodi enim ipsam. Provident at fuga non est nobis? Perferendis, totam.</p>
+                    <span>Agende a sua avaliação:</span>
+                    <br>
+                <a class="botao-whatsapp" href="https://api.whatsapp.com/send?phone=5531995113838" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a class="botao-instagram" href="https://instagram.com/michelecossofisio" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </section>
 
@@ -37,32 +94,44 @@
             <div class="especialidade-1 item">
                 <img src="" alt="Neopilates">
                 <h2>Neopilates</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui similique rem, omnis consectetur nostrum doloremque repellendus velit minus deserunt. Delectus provident ad perspiciatis porro? Fugiat quidem tempora cumque accusantium?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint qui similique rem, omnis consectetur
+                    nostrum doloremque repellendus velit minus deserunt. Delectus provident ad perspiciatis porro?
+                    Fugiat quidem tempora cumque accusantium?</p>
             </div>
             <div class="especialidade-2 item">
                 <img src="" alt="Quiropraxia">
                 <h2>Quiropraxia</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi itaque mollitia dignissimos perferendis. Molestias exercitationem unde dicta id cupiditate obcaecati. Excepturi optio minus quisquam nulla porro sapiente voluptas, sunt alias.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi itaque mollitia dignissimos
+                    perferendis. Molestias exercitationem unde dicta id cupiditate obcaecati. Excepturi optio minus
+                    quisquam nulla porro sapiente voluptas, sunt alias.</p>
             </div>
             <div class="especialidade-3 item">
                 <img src="" alt="RPG">
                 <h2>RPG</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nisi, nam suscipit quaerat earum fuga maxime debitis, dignissimos numquam amet aliquid facilis fugit officia, dolor minus quibusdam excepturi dolore provident!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis nisi, nam suscipit quaerat
+                    earum fuga maxime debitis, dignissimos numquam amet aliquid facilis fugit officia, dolor minus
+                    quibusdam excepturi dolore provident!</p>
             </div>
             <div class="especialidade-4 item">
                 <img src="" alt="Mckenzie">
                 <h2>Mckenzie</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo eum repudiandae nisi, reprehenderit molestias, vitae vel soluta, suscipit a eaque neque magnam voluptatum dicta exercitationem ad fugiat! Quidem, ex.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas nemo eum repudiandae nisi,
+                    reprehenderit molestias, vitae vel soluta, suscipit a eaque neque magnam voluptatum dicta
+                    exercitationem ad fugiat! Quidem, ex.</p>
             </div>
             <div class="especialidade-5 item">
                 <img src="" alt="Pilates">
                 <h2>Pilates</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur laborum, vel, consequuntur voluptatem pariatur tempore facilis accusantium quis omnis laudantium harum, consequatur maxime culpa inventore nihil quidem magni neque perferendis!</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur laborum, vel, consequuntur
+                    voluptatem pariatur tempore facilis accusantium quis omnis laudantium harum, consequatur maxime
+                    culpa inventore nihil quidem magni neque perferendis!</p>
             </div>
             <div class="especialidade-6 item">
                 <img src="" alt="Hipopressivo">
                 <h2>Hipopressivo</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore sint voluptatibus molestiae eligendi, iure perspiciatis voluptates fugiat. Esse corrupti eligendi qui dicta sunt tempora libero, labore eveniet necessitatibus in aliquid.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore sint voluptatibus molestiae
+                    eligendi, iure perspiciatis voluptates fugiat. Esse corrupti eligendi qui dicta sunt tempora libero,
+                    labore eveniet necessitatibus in aliquid.</p>
             </div>
 
         </section>
@@ -120,48 +189,65 @@
             <img src="" alt="">
 
             <div class="conteudo">
-            <h1>FAQ</h1>
-            <ul class="itens">
-                <li class="item ativo">
-                    <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
-                        <i class="fa-solid fa-caret-down"></i>
-                    </h2>
-                    <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
-                </li>
-                <li class="item">
-                    <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
-                        <i class="fa-solid fa-caret-down"></i>
-                    </h2>
-                    <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
-                </li>
-                <li class="item">
-                    <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
-                        <i class="fa-solid fa-caret-down"></i>
-                    </h2>
-                    <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
-                </li>
-                <li class="item">
-                    <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
-                        <i class="fa-solid fa-caret-down"></i>
-                    </h2>
-                    <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
-                </li>
-                <li class="item">
-                    <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
-                        <i class="fa-solid fa-caret-down"></i>
-                    </h2>
-                    <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
-                </li>
-            </ul>
-        </div>
+                <h1>FAQ</h1>
+                <ul class="itens">
+                    <li class="item ativo">
+                        <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
+                            <i class="fa-solid fa-caret-down"></i>
+                        </h2>
+                        <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt
+                            nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda
+                            modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
+                    </li>
+                    <li class="item">
+                        <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
+                            <i class="fa-solid fa-caret-down"></i>
+                        </h2>
+                        <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt
+                            nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda
+                            modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
+                    </li>
+                    <li class="item">
+                        <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
+                            <i class="fa-solid fa-caret-down"></i>
+                        </h2>
+                        <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt
+                            nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda
+                            modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
+                    </li>
+                    <li class="item">
+                        <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
+                            <i class="fa-solid fa-caret-down"></i>
+                        </h2>
+                        <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt
+                            nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda
+                            modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
+                    </li>
+                    <li class="item">
+                        <h2 class="pergunta">Lorem ipsum dolor sit amet consectetur?
+                            <i class="fa-solid fa-caret-down"></i>
+                        </h2>
+                        <p class="resposta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, incidunt
+                            nesciunt officiis saepe est aspernatur repudiandae quod ipsam iste molestiae at assumenda
+                            modi iusto obcaecati eligendi sunt cum neque blanditiis!</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <footer class="rodape">
-            <div class="mapa">Google</div>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.589754091549!2d-43.97971502405424!3d-19.94168543867391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ac1d6d21cf%3A0xbd6914bf2d758cfb!2sR.%20Corcovado%2C%20364%20-%20Jardim%20America%2C%20Belo%20Horizonte%20-%20MG%2C%2030421-389!5e0!3m2!1spt-BR!2sbr!4v1693691763656!5m2!1spt-BR!2sbr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             <div class="contatos"></div>
         </footer>
     </main>
 
+    <script type="text/javascript" src="src/js/slider.js"></script>
     <script type="text/javascript" src="src/js/index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,16 @@
+:root {
+    --cor-primeira: #85C5CF;
+    --cor-segunda: #51858E;
+    --cor-terceira: #959699;
+    --cor-quarta: #fff;
+    --cor-quinta: #000;
+}
+
+:root {
+    --fonte-tamanho-1: 10px;
+    --fonte-tamanho-2: 12px;
+    --fonte-tamanho-3: 15px;
+    --fonte-tamanho-4: 20px;
+    --fonte-tamanho-5: 30px;
+    --fonte-tamanho-6: 40px;
+}

@@ -8,14 +8,20 @@
       content="Michele Cosso Fisioterapia e Pilates no bairro Jardim América"
     />
     <title>Michele Cosso Fisioterapia e Pilates</title>
+    <!-- INTERAÇÃO -->
     <link rel="stylesheet" href="src/css/carrossel.css" />
+    <link rel="stylesheet" href="src/css/slider.css" />
+    <!-- PÁGINAS -->
+    <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/clinica.css" />
     <link rel="stylesheet" href="src/css/especialidades.css" />
-    <link rel="stylesheet" href="src/css/galeria.css" />
-    <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/profissionais.css" />
+    <link rel="stylesheet" href="src/css/diferenciais.css" />
+    <link rel="stylesheet" href="src/css/galeria.css" />
+    <link rel="stylesheet" href="src/css/perguntas.css" />
+    <link rel="stylesheet" href="src/css/rodape.css" />
+    <!-- GLOBAIS -->
     <link rel="stylesheet" href="src/css/reset.css" />
-    <link rel="stylesheet" href="src/css/slider.css" />
     <link rel="stylesheet" href="src/css/variables.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -39,13 +45,13 @@
     <div class="header">
       <img
         class="logo-oficial"
-        src="src/images/logo-oficial-1.png"
+        src="src/images/logo-site-1.png"
         alt="logo"
       />
 
       <nav class="menu-principal">
         <ul class="itens">
-          <li><a class="item" href="#home">Home</a></li>
+          <li><a class="item" href="#noticias">Notícias</a></li>
           <li><a class="item" href="#clinica">A Clínica</a></li>
           <li><a class="item" href="#especialidades">Especialidades</a></li>
           <li><a class="item" href="#profissionais">Profissionais</a></li>
@@ -74,8 +80,8 @@
       </div>
     </div>
     <main class="container">
-        <section class="slider">
-          <h1>Notícias</h1>
+      <section class="slider">
+        <h1>Notícias</h1>
         <div class="slider-content">
           <input type="radio" name="btn-radio" id="radio1" />
           <input type="radio" name="btn-radio" id="radio2" />
@@ -133,7 +139,7 @@
       </section>
 
       <section class="clinica">
-        <h2>Sobre a clínica</h2>
+        <h1>Sobre a clínica</h1>
         <div class="container">
           <div class="imagem-clinica">
             <img src="/src/images/pilates-1.jpeg" alt="foto clínica" />
@@ -372,33 +378,38 @@
       </section>
 
       <section class="diferenciais">
-        <div class="conteudo"></div>
-        <img src="" alt="" />
+        <h1>Nossos diferenciais</h1>
+        <div class="container">
+          <div class="conteudo">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab ullam temporibus cupiditate doloribus est, sapiente aperiam tempora adipisci provident saepe quos laborum assumenda officia odit at amet velit quo aut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, sit. Voluptates qui enim placeat vero, aliquam accusantium aperiam voluptas omnis aliquid esse sint, non excepturi nemo! Enim a accusamus numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero similique sed error magni minima. Modi deserunt sit rem quibusdam quas suscipit doloribus ad eaque, cumque ipsa. Reprehenderit, provident. Eos!</p>
+          </div>
+          <div class="img-diferenciais">
+            <img src="src/images/unnamed.jpg" alt="clínica"/>
+          </div>
+        </div>
       </section>
 
       <section class="galeria">
         <h1>Galeria de fotos</h1>
-        <div class="container">
-        <ul class="imagens-galeria">
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 1"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 2"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 3"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 4"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 5"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 6"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 7"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 8"></li>
-          <li><img src="https://via.placeholder.com/300x300" alt="imagem 9"></li>
-        </ul>
-    </div>
+        <div class="imagens-galeria">
+          <img src="https://via.placeholder.com/363x300" alt="imagem 1" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 2" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 3" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 4" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 5" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 6" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 7" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 8" />
+          <img src="https://via.placeholder.com/363x300" alt="imagem 9" />
+        </div>
       </section>
 
       <section class="perguntas-frequentes">
-        <img src="" alt="" />
-
+        <h1>Perguntas Frequentes</h1>
         <div class="conteudo">
-          <h1>Perguntas Frequentes:</h1>
-          <br />
+          <div class="img-duvidas">
+          <img src="src/images/duvidas.png" alt="dúvidas" />
+        </div>
           <ul class="itens">
             <li class="item ativo">
               <h2 class="pergunta">
@@ -465,10 +476,11 @@
       </section>
 
       <footer class="rodape">
+        <div class="container">
         <div class="mapa">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.589754091549!2d-43.97971502405424!3d-19.94168543867391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ac1d6d21cf%3A0xbd6914bf2d758cfb!2sR.%20Corcovado%2C%20364%20-%20Jardim%20America%2C%20Belo%20Horizonte%20-%20MG%2C%2030421-389!5e0!3m2!1spt-BR!2sbr!4v1693691763656!5m2!1spt-BR!2sbr"
-            width="100%"
+            width="600"
             height="450"
             style="border: 0"
             allowfullscreen=""
@@ -477,6 +489,7 @@
           ></iframe>
         </div>
         <div class="contatos"></div>
+      </div>
       </footer>
     </main>
 

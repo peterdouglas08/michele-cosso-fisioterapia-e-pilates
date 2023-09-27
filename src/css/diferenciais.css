@@ -1,0 +1,28 @@
+.diferenciais h1 {
+    text-align: center;
+    font-size: var(--fonte-tamanho-6);
+    margin-bottom: 10px;
+}
+
+.diferenciais .container {
+    display: flex;
+    background-color: antiquewhite;
+    height: 600px;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 100px;
+}
+
+.diferencias .container .conteudo {
+    width: 50%;
+}
+
+.diferenciais .container .conteudo p{
+    font-size: var(--fonte-tamanho-4);
+    text-align: justify;
+    line-height: 30px;
+}
+
+.diferenciais .container .img-diferenciais {
+    width: 100%;
+}

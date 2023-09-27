@@ -1,0 +1,15 @@
+.rodape {
+    background-color: blueviolet;
+    height: 600px;
+    margin: 50px 50px 50px 300px;
+}
+
+.rodape .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape .container .mapa {
+
+}

@@ -7,12 +7,11 @@
     justify-content: space-around;
     width: 250px;
     height: 100vh;
-    /* background-color: #eee; */
     z-index: 1;
 }
 
 .header .logo-oficial{
-    width: 75%;
+    width: 65%;
 }
 
 .header .menu-principal .itens {

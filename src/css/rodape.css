@@ -1,15 +1,32 @@
 .rodape {
-    background-color: blueviolet;
     height: 600px;
     margin: 50px 50px 50px 300px;
 }
 
+.rodape h1 {
+    text-align: center;
+    font-size: var(--fonte-tamanho-6);
+    margin-bottom: 10px;
+}
+
 .rodape .container {
+    background-color: blueviolet;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 100%;
 }
 
 .rodape .container .mapa {
 
+}
+
+.rodape .container .contatos .form fieldset {
+    border-radius: 10px;    
+    border: 2px solid var(--cor-quarta);
+}
+
+.rodape .container .contatos .form legend {
+    text-align: center;
+    color: var(--cor-quarta);
 }

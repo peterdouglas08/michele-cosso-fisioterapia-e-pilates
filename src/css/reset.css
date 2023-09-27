@@ -11,8 +11,11 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    background-color: var(--cor-terceira);
+    background-image: url(/src/images/background.jpg);
+    background-blend-mode: overlay;
 }
 
 section {
-    margin: 100px 50px;
+    margin: 0 50px 100px 300px;
 }

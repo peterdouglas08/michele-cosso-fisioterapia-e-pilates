@@ -5,6 +5,7 @@
     list-style-type: none;
     text-decoration: none;
     color: #000;
+    outline: none;
 }
 
 html, body{
@@ -18,4 +19,15 @@ html, body{
 
 section {
     margin: 0 50px 100px 300px;
+}
+
+textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+::placeholder {
+    font-family: 'Open Sans', sans-serif;
 }

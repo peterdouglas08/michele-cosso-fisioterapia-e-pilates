@@ -478,17 +478,6 @@
       <footer class="rodape">
         <h1>Contatos</h1>
         <div class="container">
-        <div class="mapa">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.589754091549!2d-43.97971502405424!3d-19.94168543867391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ac1d6d21cf%3A0xbd6914bf2d758cfb!2sR.%20Corcovado%2C%20364%20-%20Jardim%20America%2C%20Belo%20Horizonte%20-%20MG%2C%2030421-389!5e0!3m2!1spt-BR!2sbr!4v1693691763656!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
         <div class="contatos">
           <form action="index.html" class="form" id="form" method="get" autocomplete="on">
             <fieldset>
@@ -514,16 +503,26 @@
               <p>
                 <label for="message">Mensagem:</label>
                 <textarea name="mensagem" class="dados" id="mensagem" cols="37" rows="5" placeholder="Digite a sua mensagem"></textarea>
-                <span class="alertaOn alertaOff"></span>
+                <span class="alertaOn alertaOff">*Campo obrigatório</span>
               </p>
             </fieldset>
             
             <div id="botoes" class="botoes-form">
               <button class="botao" type="button" value="enviar">Enviar</button>
-              <button class="botao" type="reset" value="limpar">Limpar</button>
+              <button class="botao limpar" type="reset" value="limpar">Limpar</button>
             </div>
-            
           </form>
+        </div>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.589754091549!2d-43.97971502405424!3d-19.94168543867391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa697ac1d6d21cf%3A0xbd6914bf2d758cfb!2sR.%20Corcovado%2C%20364%20-%20Jardim%20America%2C%20Belo%20Horizonte%20-%20MG%2C%2030421-389!5e0!3m2!1spt-BR!2sbr!4v1693691763656!5m2!1spt-BR!2sbr"
+            width="450"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
       </footer>
@@ -532,5 +531,6 @@
     <script type="text/javascript" src="src/js/carrossel.js"></script>
     <script type="text/javascript" src="src/js/slider.js"></script>
     <script type="text/javascript" src="src/js/index.js"></script>
+    <script type="text/javascript" src="src/js/form.js"></script>
   </body>
 </html>

@@ -29,13 +29,13 @@
 
 .header .menu-principal .itens .item::after {
     content: "";
-    background-color: var(--cor-quarta);
+    background-color: var(--cor-segunda);
     position: absolute;
     border-radius: 10%;
 }
 
 .header .menu-principal .itens .item:hover::after {
-    background-color: var(--cor-quarta);
+    background-color: var(--cor-segunda);
     width: 85%;
     left: 8%;
     bottom: 10%;

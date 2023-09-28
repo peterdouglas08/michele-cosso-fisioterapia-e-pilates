@@ -6,7 +6,7 @@
 
 .diferenciais .container {
     display: flex;
-    background-color: antiquewhite;
+    background-color: var(--cor-quarta);
     height: 600px;
     align-items: center;
     gap: 50px;

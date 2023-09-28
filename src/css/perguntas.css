@@ -13,7 +13,7 @@
 .perguntas-frequentes .conteudo {
     background-color: #fff;
     border-radius: 20px;
-    height: 600px;
+    height: 700px;
     padding: 50px;
     gap: 50px;
     display: flex;
@@ -22,4 +22,60 @@
 
 .perguntas-frequentes .img-duvidas img {
     width: 100%;
+}
+
+.perguntas-frequentes .itens {
+    list-style-type: none;
+    width: 900px;
+}
+
+.perguntas-frequentes .itens .item  {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 15px;
+}
+
+.perguntas-frequentes .itens .item:last-child {
+    border: none;
+}
+
+.perguntas-frequentes .itens .item .pergunta {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 10px;
+    list-style: none;
+}
+
+.perguntas-frequentes .itens .item .pergunta:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.perguntas-frequentes .itens .item .pergunta .fa-caret-down {
+    position: absolute;
+    color: #bbb;
+    font-size: 23px;
+    right: 4%;
+}
+
+.perguntas-frequentes .itens .item .resposta {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: justify;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+/* JAVASCRIPT */
+
+.perguntas-frequentes .conteudo .itens .item.ativo .pergunta {
+    font-weight: 700;
+}
+
+.perguntas-frequentes .conteudo .itens .item.ativo .resposta {
+    display: block;
+}
+
+.perguntas-frequentes .conteudo .itens .item.ativo .fa-caret-down {
+    color: var(--cor-sexta);
 }

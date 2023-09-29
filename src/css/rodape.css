@@ -10,18 +10,19 @@
 }
 
 .rodape .container {
-    background-color: var(--cor-quarta);
-    border-radius: 20px 20px 0 0;
+    background-color: var(--cor-terceira);
+    border-radius: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     gap: 100px;
     align-items: center;
-    height: 100%;
+    height: 550px;
 }
 
 .rodape .container .contatos .form fieldset {
     border-radius: 10px;    
-    border: 2px solid var(--cor-terceira);
+    border: 2px solid var(--cor-quarta);
     padding: 20px;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .rodape .container .contatos .form input {
-    background-color: var(--cor-terceira);
+    background-color: var(--cor-quarta);
     width: 100%;
     height: 35px;
     border: none;
@@ -44,7 +45,7 @@
 }
 
 .rodape .container .contatos .form textarea {
-    background-color: var(--cor-terceira);
+    background-color: var(--cor-quarta);
     width: 100%;
     height: 120px;
     border: none;
@@ -81,8 +82,8 @@
 
 /* ESTILIZAÇÃO ITENS JAVASCRIPT */
 .rodape .container .contatos .form .dados.aceito {
-    background-color: rgba(15, 221, 15, 0.5);
-    color: var(--cor-quarta);
+    background-color: rgba(20, 241, 20, 0.5);
+    color: var(--cor-quinta);
 }
 
 .rodape .container .contatos .form .dados.recusado {

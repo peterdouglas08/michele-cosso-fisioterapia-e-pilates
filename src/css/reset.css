@@ -13,8 +13,14 @@ html, body{
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: var(--cor-terceira);
-    background-image: url(/src/images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-blend-mode: overlay;
+    scroll-behavior: smooth;
+}
+
+ul, li {
+    list-style: none;
+    text-decoration: none;
 }
 
 section {
@@ -22,6 +28,7 @@ section {
 }
 
 textarea {
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

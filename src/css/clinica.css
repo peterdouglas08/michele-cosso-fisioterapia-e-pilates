@@ -5,7 +5,8 @@
 }
 
 .clinica .container {
-    background-color: var(--cor-primeira);
+    background-color: var(--cor-terceira);
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;

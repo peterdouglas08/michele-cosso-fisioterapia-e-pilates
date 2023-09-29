@@ -11,7 +11,7 @@
 }
 
 .perguntas-frequentes .conteudo {
-    background-color: #fff;
+    background-color: var(--cor-terceira);
     border-radius: 20px;
     height: 700px;
     padding: 50px;

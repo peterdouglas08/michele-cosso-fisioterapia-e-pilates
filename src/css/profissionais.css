@@ -1,9 +1,4 @@
 section.profissionais {
-    margin: 0 auto;
-    /* width: 94%; */
-    height: auto;
-    padding: 0 !important;
-    overflow: hidden;
     margin: 50px 50px 100px 300px;
 }
 
@@ -13,31 +8,49 @@ section.profissionais {
     margin-bottom: 10px;
 }
 
-.conteudo-profissionais {
+.profissionais .conteudo-profissionais {
     display: flex;
     gap: 40px;
+    background-color: var(--cor-terceira);
+    border-radius: 20px;
+    padding: 50px;
 }
 
-.conteudo-profissionais input, .fisio-mobile {
-    display: none;
-    justify-content: center;
-}
-.conteudo-profissionais .destaque{
-    width: 40%;
+.profissionais .conteudo-profissionais .profissional .destaque{
+    width: 30%;
     align-self: baseline;
 }
 
-.profissional {
-    width: 25%;
+.profissionais .conteudo-profissionais .profissional {
+    width: 30%;
     height: auto;
     position: relative;
     text-align: center;
     transition: 1s;
 }
 
-.profissional img {
+.profissionais .conteudo-profissionais .profissional img {
     width: 100%;
     border-radius: 10px;
+}
+
+.profissionais .conteudo-profissionais .profissional input, .fisio-mobile {
+    display: none;
+    justify-content: center;
+}
+
+.profissionais .conteudo-profissionais .profissional h2 {
+    font-size: var(--fonte-tamanho-4);
+}
+
+.profissionais .conteudo-profissionais .profissional span {
+    margin: 10px 0;
+    font-size: var(--fonte-tamanho-2);
+}
+
+.profissionais .conteudo-profissionais .profissional p {
+    margin-top: 10px;
+    font-size: var(--fonte-tamanho-3);
 }
 
 .nav-manual-2, .nav-auto-2 {
@@ -95,28 +108,4 @@ section.profissionais {
     .nav-auto, .nav-manual {
         margin-top: 60%;
     }
-}
-
-.profissionais .agendar {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 20px;
-    margin-top: 70px;
-}
-
-.profissionais .botao-whatsapp i {
-    font-size: var(--fonte-tamanho-6);
-    background-color: rgb(28, 199, 13);
-    padding: 5px 10px;
-    border-radius: 10px;
-    color: var(--cor-quarta);
-}
-
-.profissionais .botao-instagram i {
-    font-size: var(--fonte-tamanho-6);
-    background-color: rgb(224, 32, 151);
-    padding: 5px 10px;
-    border-radius: 10px;
-    color: var(--cor-quarta);
 }

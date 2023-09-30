@@ -8,21 +8,8 @@
       content="Michele Cosso Fisioterapia e Pilates no bairro Jardim América"
     />
     <title>Michele Cosso Fisioterapia e Pilates</title>
-    <!-- INTERAÇÃO -->
-    <link rel="stylesheet" href="./src/css/carrossel.css" />
-    <link rel="stylesheet" href="./src/css/slider.css" />
-    <!-- PÁGINAS -->
-    <link rel="stylesheet" href="./src/css/header.css" />
-    <link rel="stylesheet" href="./src/css/clinica.css" />
-    <link rel="stylesheet" href="./src/css/especialidades.css" />
-    <link rel="stylesheet" href="./src/css/profissionais.css" />
-    <link rel="stylesheet" href="./src/css/diferenciais.css" />
-    <link rel="stylesheet" href="./src/css/galeria.css" />
-    <link rel="stylesheet" href="./src/css/perguntas.css" />
-    <link rel="stylesheet" href="./src/css/rodape.css" />
-    <!-- GLOBAIS -->
-    <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/variables.css" />
+
+    <link rel="stylesheet" href="./src/css/import.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 
     <link
       rel="stylesheet"
@@ -54,7 +45,7 @@
           <li><a class="item" href="#diferenciais">Diferenciais</a></li>
           <li><a class="item" href="#galeria">Galeria de fotos</a></li>
           <li><a class="item" href="#perguntas">Perguntas</a></li>
-          <li><a class="item" href="#contatos">Contatos</a></li>
+          <li><a class="item" href="#localizacao">Localização</a></li>
         </ul>
       </nav>
       <div class="agendar">
@@ -326,7 +317,6 @@
               veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
               Reiciendis, qui corrupti!
             </p>
-            >
           </div>
           <div class="profissional">
             <img
@@ -347,7 +337,6 @@
               veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
               Reiciendis, qui corrupti!
             </p>
-            >
           </div>
           <div class="profissional">
             <img
@@ -368,7 +357,6 @@
               veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
               Reiciendis, qui corrupti!
             </p>
-            >
           </div>
         </div>
       </section>
@@ -398,13 +386,16 @@
 
       <section class="galeria" id="galeria">
         <h1>Galeria de fotos</h1>
-        <ul class="imagens-galeria">
-          <li><img src="https://placehold.co/300x300" alt="imagem 01" /></li>
-          <li><img src="https://placehold.co/300x300" alt="imagem 02" /></li>
-          <li><img src="https://placehold.co/300x300" alt="imagem 03" /></li>
-          <li><img src="https://placehold.co/300x300" alt="imagem 04" /></li>
-          <li><img src="https://placehold.co/300x300" alt="imagem 05" /></li>
-          <li><img src="https://placehold.co/300x300" alt="imagem 06" /></li>
+        <div class="container">
+          <figure class="itemGaleria item01"><img src="src/images/fisioterapia-1.jpg" alt="imagem 01" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item02"><img src="src/images/fisioterapia.jpg" alt="imagem 02" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item03"><img src="src/images/hipopressivo.jpg" alt="imagem 03" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item04"><img src="src/images/Mckenzie.jpg" alt="imagem 04" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item05"><img src="src/images/neopilates.jpg" alt="imagem 05" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item06"><img src="src/images/quiropraxia.jpg" alt="imagem 06" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item07"><img src="src/images/pilates.jpg" alt="imagem 07" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item08"><img src="src/images/rpg.jpg" alt="imagem 08" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item09"><img src="src/images/pilates-1.jpeg" alt="imagem 09" class="imgGaleria"/></figure>
         </div>
       </section>
 
@@ -483,10 +474,10 @@
         </div>
       </section>
 
-      <footer class="rodape" id="contatos">
-        <h1>Contatos</h1>
+      <footer class="rodape" id="localizacao">
+        <h1>Localização</h1>
         <div class="container">
-          <div class="contatos">
+          <div class="contato">
             <form
               action="index.html"
               class="form"
@@ -553,7 +544,7 @@
               </fieldset>
 
               <div id="botoes" class="botoes-form">
-                <button class="botao" type="button" value="enviar">
+                <button class="botao enviar" type="button" value="enviar">
                   Enviar
                 </button>
                 <button class="botao limpar" type="reset" value="limpar">
@@ -574,6 +565,13 @@
             ></iframe>
           </div>
         </div>
+        <div class="copy">
+        <p>&copy; 2023 | Todos os direitos reservados | Desenvolvido por <strong>Peter Douglas</strong> | 
+  <a href="https://www.linkedin.com/in/peterdouglas08/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  <a href="https://www.github.com/peterdouglas08" target="_blank"><i class="fab fa-github"></i></a>
+  <a href="https://www.instagram.com/peterdouglas08" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="https://api.whatsapp.com/send?phone=5531995547786" target="_blank"><i class="fab fa-whatsapp"></i></a></p>
+      </div>
       </footer>
     </main>
 

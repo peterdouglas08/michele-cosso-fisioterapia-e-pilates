@@ -1,7 +1,9 @@
 .clinica h1 {
     text-align: center;
-    font-size: var(--fonte-tamanho-6);
+    font-size: var(--fonte-tamanho-7);
+    font-weight: 400;
     margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .clinica .container {
@@ -11,7 +13,7 @@
     justify-content: center;
     align-items: center;
     height: 600px;
-    gap: 50px;
+    gap: 100px;
     padding: 50px 100px;
 }
 
@@ -31,14 +33,7 @@
 }
 
 .clinica .conteudo p {
-    font-size: var(--fonte-tamanho-4);
+    font-size: var(--fonte-tamanho-3);
     text-align: justify;
     line-height: 30px;
-    margin-bottom: 30px;
-}
-
-.clinica .conteudo span {
-    text-align: center;
-    font-size: var(--fonte-tamanho-4);
-    font-weight: 700;
 }

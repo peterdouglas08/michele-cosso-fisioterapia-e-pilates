@@ -4,7 +4,9 @@
 }
 
 .perguntas-frequentes h1 {
-    font-size: var(--fonte-tamanho-6);
+    font-size: var(--fonte-tamanho-7);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 10px;
     margin-left: 20px;

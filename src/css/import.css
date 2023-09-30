@@ -1,0 +1,14 @@
+@import url('./reset.min.css');
+
+@import url('./reset.css');
+@import url('./variables.css');
+
+@import url('./clinica.css');
+@import url('./diferenciais.css');
+@import url('./especialidades.css');
+@import url('./galeria.css');
+@import url('./header.css');
+@import url('./perguntas.css');
+@import url('./profissionais.css');
+@import url('./rodape.css');
+@import url('./slider.css');

@@ -1,6 +1,8 @@
 .diferenciais h1 {
     text-align: center;
-    font-size: var(--fonte-tamanho-6);
+    font-size: var(--fonte-tamanho-7);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
@@ -10,7 +12,7 @@
     border-radius: 20px;
     height: 600px;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     padding: 50px 100px;
 }
 
@@ -19,7 +21,7 @@
 }
 
 .diferenciais .container .conteudo p{
-    font-size: var(--fonte-tamanho-4);
+    font-size: var(--fonte-tamanho-3);
     text-align: justify;
     line-height: 30px;
 }

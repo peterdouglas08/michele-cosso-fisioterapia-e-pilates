@@ -8,8 +8,10 @@ section.slider {
 
 .slider h1 {
     text-align: center;
-    font-size: var(--fonte-tamanho-6);
+    font-size: var(--fonte-tamanho-7);
+    font-weight: 400;
     margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .slider-content {

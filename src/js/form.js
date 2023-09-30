@@ -1,22 +1,8 @@
+const formulario = document.getElementById("form");
 const dadosUsuario = document.querySelectorAll(".dados");
-const botoesForm = document.querySelector(".botao");
-const botaoLimpar = document.querySelector("limpar");
+const botaoEnviar = document.querySelector(".enviar");
 
-dadosUsuario.forEach((input) => {
-  input.addEventListener("input", () => {
-    if (input.value) {
-      input.classList.add("aceito");
-      input.classList.remove("recusado");
-      input.nextElementSibling.classList.add("alertaOff");
-    } else {
-      input.classList.remove("aceito");
-      input.classList.add("recusado");
-      input.nextElementSibling.classList.remove("alertaOff");
-    }
-  });
-});
-
-botoesForm.addEventListener("click", (event) => {
+botaoEnviar.addEventListener("click", (event) => {
   event.preventDefault();
 
   dadosUsuario.forEach((input) => {
@@ -30,4 +16,12 @@ botoesForm.addEventListener("click", (event) => {
       input.nextElementSibling.classList.remove("alertaOff");
     }
   });
+});
+
+formulario.addEventListener("click", () => {
+  if (formulario.value >= input.lenght) {
+    input.classList.add("aceito");
+    input.classList.remove("recusado");
+    input.nextElementSibling.classList.add("alertaOff");
+  }
 });

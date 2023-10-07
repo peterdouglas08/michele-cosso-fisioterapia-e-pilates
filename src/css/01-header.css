@@ -24,22 +24,10 @@
     margin: 0px 10px;
     position: relative;
     cursor: pointer;
-    transition: 0.5s ease-in-out;
 }
 
-.header .menu-principal .itens .item::after {
-    content: "";
-    background-color: var(--cor-segunda);
-    position: absolute;
-    border-radius: 10%;
-}
-
-.header .menu-principal .itens .item:hover::after {
-    background-color: var(--cor-segunda);
-    width: 85%;
-    left: 8%;
-    bottom: 10%;
-    height: 5%;
+.header .menu-principal .itens .item:hover{
+    color: var(--cor-quarta);
 }
 
 .header .agendar {

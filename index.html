@@ -9,27 +9,24 @@
     />
     <title>Michele Cosso Fisioterapia e Pilates</title>
 
-    <link rel="stylesheet" href="./src/css/import.css">
-
+    <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap"
-      rel="stylesheet"
-    />
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
 
+    <!-- SWIPER CSS - SEÇÃO PROFISSIONAIS -->
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css">
+    
+    <!-- ÍCONES -->
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/3a5934eb1e.js"
-      crossorigin="anonymous"
-    ></script>
+    rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"/>
+    <script src="https://kit.fontawesome.com/3a5934eb1e.js" crossorigin="anonymous"></script>
+    
+    <!-- PÁGINAS IMPORTADAS -->
+    <link rel="stylesheet" href="./src/css/import.css">
   </head>
 
   <body>
@@ -67,46 +64,46 @@
       </div>
     </div>
     <main class="container">
-      <section class="slider" id="noticias">
+      <section class="noticias" id="noticias">
         <h1>Notícias</h1>
-        <div class="slider-content">
+        <div class="conteudo-noticias">
           <input type="radio" name="btn-radio" id="radio1" />
           <input type="radio" name="btn-radio" id="radio2" />
           <input type="radio" name="btn-radio" id="radio3" />
 
-          <div class="slide-box primeiro">
+          <div class="box-noticias primeiro">
             <img
               class="img-desktop"
-              src="./src/images/slide-1.jpg"
+              src="./src/images/beach-8260614_1280.jpg"
               alt="slide 1"
             />
             <img
               class="img-mobile"
-              src="./src/images/slide-mob-1.jpg"
+              src="./src/images/beach-8260614_1280.jpg"
               alt="slide 1"
             />
           </div>
-          <div class="slide-box">
+          <div class="box-noticias">
             <img
               class="img-desktop"
-              src="./src/images/slide-2.jpg"
+              src="./src/images/bees-8267791_1280.png"
               alt="slide 2"
             />
             <img
               class="img-mobile"
-              src="./src/images/slide-mob-2.jpg"
+              src="./src/images/bees-8267791_1280.png"
               alt="slide 2"
             />
           </div>
-          <div class="slide-box">
+          <div class="box-noticias">
             <img
               class="img-desktop"
-              src="./src/images/slide-3.jpg"
+              src="./src/images/cat-8260638_1280.jpg"
               alt="slide 3"
             />
             <img
               class="img-mobile"
-              src="./src/images/slide-mob-3.jpg"
+              src="./src/images/cat-8260638_1280.jpg"
               alt="slide 3"
             />
           </div>
@@ -217,148 +214,219 @@
 
       <section class="profissionais" id="profissionais">
         <h1>Nossas profissionais</h1>
-        <div class="conteudo-profissionais">
-          <div class="profissional">
-            <img
-              class="fisio-desktop"
-              src="https://placehold.co/300x400"
-              alt="fisio-1"
-            />
-            <img
-              class="fisio-mobile"
-              src="https://placehold.co/200x300"
-              alt="fisio-1"
-            />
-            <h2>Amanda</h2>
-            <span>Fisioterapeuta</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
-              tempora quae harum non, consectetur, esse suscipit nesciunt quod
-              veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
-              Reiciendis, qui corrupti!
-            </p>
+        
+        <div class="slide-container swiper">
+          <div class="slide-content">
+              <div class="card-wrapper swiper-wrapper">
+  
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+  
+                          <div class="card-image">
+                              <img class="card-img" src="./src/images/foto-01.jpg" alt="card-img">
+                          </div>
+                      </div>
+  
+                      <div class="card-content">
+                          <h2 class="name">Michele</h2>
+                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+  
+                          <div class="botoes-header">
+                            <a
+                              class="botao-whatsapp"
+                              href="https://api.whatsapp.com/send?phone=5531995113838"
+                              target="_blank"
+                              ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                              class="botao-instagram"
+                              href="https://instagram.com/michelecossofisio"
+                              target="_blank"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+  
+                          <div class="card-image">
+                              <img class="card-img" src="./src/images/foto-02.jpg" alt="card-img">
+                          </div>
+                      </div>
+  
+                      <div class="card-content">
+                          <h2 class="name">Karol</h2>
+                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+  
+                          <div class="botoes-header">
+                            <a
+                              class="botao-whatsapp"
+                              href="#profissionais"
+                              ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                              class="botao-instagram"
+                              href="#profissionais"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+  
+                          <div class="card-image">
+                              <img class="card-img" src="./src/images/foto-03.jpg" alt="card-img">
+                          </div>
+                      </div>
+  
+                      <div class="card-content">
+                          <h2 class="name">Talita</h2>
+                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+  
+                          <div class="botoes-header">
+                            <a
+                              class="botao-whatsapp"
+                              href="#profissionais"
+                              ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                              class="botao-instagram"
+                              href="#profissionais"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+  
+                          <div class="card-image">
+                              <img class="card-img" src="./src/images/foto-04.jpg" alt="card-img">
+                          </div>
+                      </div>
+  
+                      <div class="card-content">
+                          <h2 class="name">Juliana</h2>
+                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+  
+                          <div class="botoes-header">
+                            <a
+                              class="botao-whatsapp"
+                              href="#profissionais"
+                              ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                              class="botao-instagram"
+                              href="#profissionais"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+  
+                          <div class="card-image">
+                              <img class="card-img" src="./src/images/foto-05.jpg" alt="card-img">
+                          </div>
+                      </div>
+  
+                      <div class="card-content">
+                          <h2 class="name">Naftaly</h2>
+                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+  
+                          <div class="botoes-header">
+                            <a
+                              class="botao-whatsapp"
+                              href="#profissionais"
+                              ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                              class="botao-instagram"
+                              href="#profissionais"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+  
+                          <div class="card-image">
+                              <img class="card-img" src="./src/images/foto-06.jpg" alt="card-img">
+                          </div>
+                      </div>
+  
+                      <div class="card-content">
+                          <h2 class="name">Silvia</h2>
+                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+  
+                          <div class="botoes-header">
+                            <a
+                              class="botao-whatsapp"
+                              href="#profissionais"
+                              ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                              class="botao-instagram"
+                              href="#profissionais"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="card swiper-slide">
+                      <div class="image-content">
+                          <span class="overlay"></span>
+  
+                          <div class="card-image">
+                              <img class="card-img" src="./src/images/foto-07.jpg" alt="card-img">
+                          </div>
+                      </div>
+  
+                      <div class="card-content">
+                          <h2 class="name">Amanda</h2>
+                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+  
+                          <div class="botoes-header">
+                            <a
+                              class="botao-whatsapp"
+                              href="#profissionais"
+                              ><i class="fab fa-whatsapp"></i
+                            ></a>
+                            <a
+                              class="botao-instagram"
+                              href="#profissionais"
+                              ><i class="fab fa-instagram"></i
+                            ></a>
+                          </div>
+                      </div>
+                  </div>
+                  
+                 
+                  
+              </div>
           </div>
-          <div class="profissional">
-            <img
-              class="fisio-desktop"
-              src="https://placehold.co/300x400"
-              alt="fisio-2"
-            />
-            <img
-              class="fisio-mobile"
-              src="https://placehold.co/200x300"
-              alt="fisio-2"
-            />
-            <h2>Juliana</h2>
-            <span>Fisioterapeuta</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
-              tempora quae harum non, consectetur, esse suscipit nesciunt quod
-              veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
-              Reiciendis, qui corrupti!
-            </p>
-          </div>
-          <div class="profissional">
-            <img
-              class="fisio-desktop"
-              src="https://placehold.co/300x400"
-              alt="fisio-3"
-            />
-            <img
-              class="fisio-mobile"
-              src="https://placehold.co/200x300"
-              alt="fisio-3"
-            />
-            <h2>Karolina</h2>
-            <span>Fisioterapeuta</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
-              tempora quae harum non, consectetur, esse suscipit nesciunt quod
-              veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
-              Reiciendis, qui corrupti!
-            </p>
-          </div>
-          <div class="profissional destaque">
-            <img
-              class="fisio-desktop"
-              src="https://placehold.co/300x400"
-              alt="fisio-4"
-            />
-            <img
-              class="fisio-mobile"
-              src="https://placehold.co/200x300"
-              alt="fisio-4"
-            />
-            <h2>Michele</h2>
-            <span>Proprietária</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
-              tempora quae harum non, consectetur, esse suscipit nesciunt quod
-              veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
-              Reiciendis, qui corrupti!
-            </p>
-          </div>
-          <div class="profissional">
-            <img
-              class="fisio-desktop"
-              src="https://placehold.co/300x400"
-              alt="fisio-5"
-            />
-            <img
-              class="fisio-mobile"
-              src="https://placehold.co/200x300"
-              alt="fisio-5"
-            />
-            <h2>Naftaly</h2>
-            <span>Fisioterapeuta</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
-              tempora quae harum non, consectetur, esse suscipit nesciunt quod
-              veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
-              Reiciendis, qui corrupti!
-            </p>
-          </div>
-          <div class="profissional">
-            <img
-              class="fisio-desktop"
-              src="https://placehold.co/300x400"
-              alt="fisio-5"
-            />
-            <img
-              class="fisio-mobile"
-              src="https://placehold.co/200x300"
-              alt="fisio-5"
-            />
-            <h2>Silvia</h2>
-            <span>Fisioterapeuta</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
-              tempora quae harum non, consectetur, esse suscipit nesciunt quod
-              veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
-              Reiciendis, qui corrupti!
-            </p>
-          </div>
-          <div class="profissional">
-            <img
-              class="fisio-desktop"
-              src="https://placehold.co/300x400"
-              alt="fisio-5"
-            />
-            <img
-              class="fisio-mobile"
-              src="https://placehold.co/200x300"
-              alt="fisio-5"
-            />
-            <h2>Talita</h2>
-            <span>Fisioterapeuta</span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quos
-              tempora quae harum non, consectetur, esse suscipit nesciunt quod
-              veritatis nihil, nulla quasi nobis dolor repudiandae officiis!
-              Reiciendis, qui corrupti!
-            </p>
-          </div>
-        </div>
+  
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+
       </section>
 
       <section class="diferenciais" id="diferenciais">
@@ -474,7 +542,7 @@
         </div>
       </section>
 
-      <footer class="rodape" id="localizacao">
+      <footer class="localizacao" id="localizacao">
         <h1>Localização</h1>
         <div class="container">
           <div class="contato">
@@ -578,5 +646,8 @@
     <script type="text/javascript" src="./src/js/form.js"></script>
     <script type="text/javascript" src="./src/js/perguntas.js"></script>
     <script type="text/javascript" src="./src/js/slider.js"></script>
+    <script type="text/javascript" src="./src/js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./src/js/script-profissionais.js"></script>
+
   </body>
 </html>

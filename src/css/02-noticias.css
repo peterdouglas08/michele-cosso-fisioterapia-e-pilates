@@ -1,12 +1,12 @@
-section.slider {
+section.noticias {
     margin: 0 auto;
     height: auto;
-    padding: 0 !important;
+    padding: 30px 0 0;
     overflow: hidden;
     margin: 50px 50px 100px 300px;
 }
 
-.slider h1 {
+.noticias h1 {
     text-align: center;
     font-size: var(--fonte-tamanho-7);
     font-weight: 400;
@@ -14,32 +14,33 @@ section.slider {
     font-family: 'Dancing Script', cursive;
 }
 
-.slider-content {
+.conteudo-noticias {
     width: 400%;
     height: auto;
     display: flex;
 }
 
-.slider-content input, .img-mobile {
+.conteudo-noticias input, .img-mobile {
     display: none;
 }
 
-.slide-box {
+.box-noticias {
     width: 25%;
-    height: auto;
+    height: 600px;
     position: relative;
     text-align: center;
     transition: 1s;
 }
 
-.slide-box img {
+.box-noticias img {
     width: 100%;
+    object-fit: cover;
 }
 
 .nav-manual, .nav-auto {
     position: absolute;
     width: 100%;
-    margin-top: 27%;
+    margin-top: 37%;
     justify-content: center;
     display: flex;
     left: 8%;

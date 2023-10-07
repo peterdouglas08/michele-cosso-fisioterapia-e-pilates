@@ -1,6 +1,7 @@
 
-.perguntas-frequentes {
+section.perguntas-frequentes {
     position: relative;
+    padding: 30px 0 0;
 }
 
 .perguntas-frequentes h1 {
@@ -15,7 +16,7 @@
 .perguntas-frequentes .conteudo {
     background-color: var(--cor-terceira);
     border-radius: 20px;
-    height: 700px;
+    height: 600px;
     padding: 50px;
     gap: 50px;
     display: flex;

@@ -1,0 +1,162 @@
+section.profissionais {
+    margin: 50px 50px 100px 300px;
+    padding: 30px 0 0;
+}
+
+.profissionais h1 {
+    text-align: center;
+    font-size: var(--fonte-tamanho-7);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.slide-container {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--cor-primeira);
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--cor-primeira);
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #EFEFEF;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid var(--cor-primeira);
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 8px 0;
+}
+
+.description {
+    padding: 0 15px;
+    font-size: 15px;
+    color: #707070;
+    text-align: justify;
+}
+
+.profissionais .botoes-header {
+    margin: 10px 0;
+}
+
+.profissionais .botao-whatsapp i {
+    font-size: var(--fonte-tamanho-5);
+    background-color: rgb(28, 199, 13);
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    color: var(--cor-quarta);
+}
+
+.profissionais .botao-instagram i {
+    font-size: var(--fonte-tamanho-5);
+    background-color: rgb(224, 32, 151);
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    color: var(--cor-quarta);
+}
+
+.swiper-navBtn {
+    color: var(--cor-primeira);
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: var(--cor-segunda);
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 30px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination.bullet {
+    background-color: var(--cor-primeira);
+    opacity: 1;
+}
+#85C5CF
+.swiper-pagination.bullet-active {
+    background-color: var(--cor-segunda);
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}

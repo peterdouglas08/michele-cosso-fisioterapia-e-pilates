@@ -3,12 +3,12 @@
 @import url('./reset.css');
 @import url('./variables.css');
 
-@import url('./clinica.css');
-@import url('./diferenciais.css');
-@import url('./especialidades.css');
-@import url('./galeria.css');
-@import url('./header.css');
-@import url('./perguntas.css');
-@import url('./profissionais.css');
-@import url('./rodape.css');
-@import url('./slider.css');
+@import url('./01-header.css');
+@import url('./02-noticias.css');
+@import url('./03-clinica.css');
+@import url('./04-especialidades.css');
+@import url('./05-profissionais.css');
+@import url('./06-diferenciais.css');
+@import url('./07-galeria.css');
+@import url('./08-perguntas.css');
+@import url('./09-localizacao.css');

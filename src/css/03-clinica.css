@@ -37,7 +37,7 @@ section.clinica {
 }
 
 .clinica .conteudo p {
-    font-size: var(--fonte-tamanho-3);
+    font-size: 19px;
     text-align: justify;
     line-height: 30px;
 }

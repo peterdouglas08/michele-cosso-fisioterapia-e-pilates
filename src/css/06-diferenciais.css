@@ -16,20 +16,25 @@ section.diferenciais {
     border-radius: 20px;
     height: 600px;
     align-items: center;
-    gap: 100px;
+    gap: 70px;
     padding: 50px 100px;
 }
 
 .diferencias .container .conteudo {
-    width: 50%;
-}
-
-.diferenciais .container .conteudo p{
-    font-size: var(--fonte-tamanho-3);
-    text-align: justify;
-    line-height: 30px;
-}
-
-.diferenciais .container .img-diferenciais {
     width: 100%;
+}
+
+.diferenciais .container .conteudo .itens-diferenciais{
+    font-size: var(--fonte-tamanho-4);
+    line-height: 40px;
+}
+
+.diferenciais .container .conteudo .itens-diferenciais .fa-solid {
+    margin-right: 10px;
+    color: var(--cor-segunda);
+}
+
+.diferenciais .container .img-diferenciais img {
+    border-radius: 25px 0 25px 0;
+    box-shadow: 5px 5px 8px var(--cor-quarta);
 }

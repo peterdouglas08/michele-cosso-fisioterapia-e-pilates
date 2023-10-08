@@ -1,5 +1,4 @@
 section.noticias {
-    margin: 0 auto;
     height: auto;
     padding: 30px 0 0;
     overflow: hidden;
@@ -81,6 +80,7 @@ section.noticias {
 }
 
 @media screen and (max-width: 900px) {
+
     .img-desktop {
         display: none;
     }

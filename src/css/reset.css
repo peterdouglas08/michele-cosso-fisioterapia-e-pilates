@@ -38,3 +38,9 @@ textarea {
 ::placeholder {
     font-family: 'Open Sans', sans-serif;
 }
+
+@media (max-width: 900px) {
+    section {
+        margin: 0;
+    }
+}

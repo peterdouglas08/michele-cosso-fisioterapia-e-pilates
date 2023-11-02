@@ -157,6 +157,15 @@ section.profissionais {
     background-color: var(--cor-segunda);
 }
 
+
+
+@media (max-width: 1280px) {
+    section.profissionais {
+        margin: 120px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .slide-content {
         margin: 0 10px;

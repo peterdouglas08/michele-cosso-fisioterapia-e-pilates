@@ -79,7 +79,11 @@ section.noticias {
     margin-left: -50%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1280px) {
+
+    section.noticias {
+        margin: 120px;
+    }
 
     .img-desktop {
         display: none;
@@ -89,7 +93,7 @@ section.noticias {
         display: block;
     }
 
-    .nav-auto, .nav-manual {
-        margin-top: 60%;
+    .nav-manual, .nav-auto {
+        margin-top: 51%;
     }
 }

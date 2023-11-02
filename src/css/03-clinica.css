@@ -41,3 +41,40 @@ section.clinica {
     text-align: justify;
     line-height: 30px;
 }
+
+
+@media(max-width: 1280px) {
+    section.clinica {
+        margin: 120px;
+    }
+
+    .clinica .container {
+        gap: 50px;
+        padding: 25px 50px;
+        height: auto;
+    }
+
+    .clinica .conteudo {
+        width: 100%;
+    }
+
+    .clinica .imagem-clinica img{
+        width: 100%;
+    }
+
+    .clinica .conteudo p {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1120px) {
+    section.clinica {
+        margin: 80px;
+    }
+
+    .clinica .container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}

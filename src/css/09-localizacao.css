@@ -1,6 +1,5 @@
 .localizacao {
-    height: 600px;
-    margin: 50px 50px 150px 300px;
+    margin: 50px 50px 30px 300px;
 }
 
 .localizacao h1 {
@@ -14,11 +13,11 @@
 .localizacao .container {
     background-color: var(--cor-terceira);
     border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    align-items: center;
-    height: 600px;
+    padding: 50px 100px;
+}
+
+.localizacao .container .mapa {
+    margin-bottom: 50px;
 }
 
 .localizacao .container .contato .form fieldset {
@@ -113,4 +112,43 @@
 
 .localizacao .container .contato .form .alertaOff {
     opacity: 0;
+}
+
+
+@media (max-width: 1280px) {
+    .localizacao {
+        margin: 120px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .localizacao {
+        margin: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .localizacao {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .localizacao .container {
+      padding: 50px 40px;
+    }
+
+    .localizacao .copy {
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .localizacao {
+        margin: 20px;
+    }
+
+    .localizacao .container {
+        padding: 10px;
+    }
 }

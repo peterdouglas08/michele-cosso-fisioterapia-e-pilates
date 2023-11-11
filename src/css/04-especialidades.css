@@ -1,3 +1,7 @@
+section.especialidades {
+    margin: 50px 50px 100px 300px;
+}
+
 .especialidades {
     display: flex;
     flex-direction: column;
@@ -47,6 +51,29 @@
 
 @media (max-width: 1280px) {
     section.especialidades {
-        margin: 120px;
+        margin: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    section.especialidades{
+        margin: 60px;
+    }
+
+    .especialidades .container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.especialidades{
+        margin: 40px;
+    }
+
+    .especialidades .container {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

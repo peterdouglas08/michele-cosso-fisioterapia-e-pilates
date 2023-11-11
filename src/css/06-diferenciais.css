@@ -1,5 +1,6 @@
 section.diferenciais {
     padding: 30px 0 0;
+    margin: 50px 50px 100px 300px;
 }
 
 .diferenciais h1 {
@@ -17,7 +18,7 @@ section.diferenciais {
     height: 600px;
     align-items: center;
     gap: 70px;
-    padding: 50px 100px;
+    padding: 50px 70px;
 }
 
 .diferencias .container .conteudo {
@@ -25,8 +26,8 @@ section.diferenciais {
 }
 
 .diferenciais .container .conteudo .itens-diferenciais{
-    font-size: var(--fonte-tamanho-4);
-    line-height: 40px;
+    font-size: var(--fonte-tamanho-3);
+    line-height: 50px;
 }
 
 .diferenciais .container .conteudo .itens-diferenciais .fa-solid {
@@ -37,4 +38,56 @@ section.diferenciais {
 .diferenciais .container .img-diferenciais img {
     border-radius: 25px 0 25px 0;
     box-shadow: 5px 5px 8px var(--cor-quarta);
+}
+
+@media (max-width: 1280px) {
+    section.diferenciais {
+        margin: 80px;
+    }
+
+    .diferenciais .container {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    .diferencias .container .conteudo {
+        width: 50%;
+    }
+
+    .diferenciais .container .conteudo .itens-diferenciais {
+        font-size: var(--fonte-tamanho-3);
+    }
+
+    .diferenciais .container .img-diferenciais img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+
+    section.diferenciais{
+        margin: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+    section.diferenciais{
+        margin: 40px;
+    }
+
+    .diferenciais .container {
+        padding: 25px 35px;
+    }
+}
+
+
+@media (max-width: 375px) {
+    section.diferenciais{
+        margin: 40px;
+    }
+
+    .diferenciais .container {
+        padding: 15px 25px;
+    }
 }

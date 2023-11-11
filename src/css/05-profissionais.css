@@ -161,17 +161,27 @@ section.profissionais {
 
 @media (max-width: 1280px) {
     section.profissionais {
-        margin: 120px;
+        margin: 80px;
     }
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    section.profissionais{
+        margin: 40px;
+    }
+
     .slide-content {
         margin: 0 10px;
     }
 
     .swiper-navBtn {
         display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    section.profissionais{
+        margin: 40px;
     }
 }

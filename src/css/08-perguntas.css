@@ -2,6 +2,7 @@
 section.perguntas-frequentes {
     position: relative;
     padding: 30px 0 0;
+    margin: 50px 50px 100px 300px;
 }
 
 .perguntas-frequentes h1 {
@@ -16,8 +17,8 @@ section.perguntas-frequentes {
 .perguntas-frequentes .conteudo {
     background-color: var(--cor-terceira);
     border-radius: 20px;
-    height: 600px;
-    padding: 50px;
+    height: 550px;
+    padding: 0px 50px;
     gap: 50px;
     display: flex;
     align-items: center;
@@ -81,4 +82,88 @@ section.perguntas-frequentes {
 
 .perguntas-frequentes .conteudo .itens .item.ativo .fa-caret-down {
     color: var(--cor-sexta);
+}
+
+
+@media (max-width: 1280px) {
+    section.perguntas-frequentes {
+        margin: 30px;
+    }
+
+    .perguntas-frequentes .conteudo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .perguntas-frequentes .img-duvidas img {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 20%;
+    }
+    
+    .perguntas-frequentes .itens {
+        width: 100vw;
+        padding: 0 50px;
+    }
+    
+    .perguntas-frequentes .item {
+        transform: scale(0.9);
+    }
+
+    .perguntas-frequentes .itens .item .pergunta .fa-caret-down {
+        position: absolute;
+        color: #bbb;
+        font-size: 23px;
+        right: 1%;
+    }
+}
+
+@media (max-width: 768px) {
+    .perguntas-frequentes .img-duvidas img {
+        display: none;
+    }
+
+    .perguntas-frequentes .itens .item .pergunta {
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    .perguntas-frequentes .img-duvidas img {
+        position: absolute;
+        top: 25px;
+        left: 0px;
+        width: 20%;
+    }
+
+    .perguntas-frequentes .item {
+        transform: scale(0.8);
+    }
+
+    .perguntas-frequentes .itens .item .pergunta .fa-caret-down {
+        right: -8%;
+    }
+}
+
+
+@media (max-width: 300px) {
+    .perguntas-frequentes .img-duvidas img {
+        position: absolute;
+        top: 20px;
+        left: -20px;
+        width: 30%;
+    }
+
+    .perguntas-frequentes .itens {
+        transform: scale(0.9);
+    }
+
+    .perguntas-frequentes .itens .item .pergunta .fa-caret-down {
+        right: -8%;
+    }
 }

@@ -12,37 +12,49 @@
     <!-- FONTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- SWIPER CSS - SEÇÃO PROFISSIONAIS -->
-    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css">
-    
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css" />
+
     <!-- ÍCONES -->
     <link
-    rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"/>
-    <script src="https://kit.fontawesome.com/3a5934eb1e.js" crossorigin="anonymous"></script>
-    
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/3a5934eb1e.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- PÁGINAS IMPORTADAS -->
-    <link rel="stylesheet" href="./src/css/import.css">
+    <link rel="stylesheet" href="./src/css/import.css" />
   </head>
 
   <body>
     <div class="header">
-      <img class="logo-desktop" src="src/images/logo-site-1.png" alt="logo" />
-      <img class="logo-mobile" src="src/images/logo-site-2.png" alt="logo" />
-      <img class="logo-small" src="src/images/logo-site-3.png" alt="logo" />
+      <div class="logo">
+        <img class="logo-desktop" src="src/images/logo-site-1.png" alt="logo" />
+        <img class="logo-mobile" src="src/images/logo-site-2.png" alt="logo" />
+      </div>
 
       <nav class="menu-principal">
-        <input id="menu-hamburguer" type="checkbox" />
-        <label for="menu-hamburguer">
-            <div class="menu">
-              <i class="fa-solid btn-on btn-off fa-bars"></i>
-              <i class="fa-solid btn-on btn-off fa-xmark"></i>
-            </div>
-        </label>
+        <input type="checkbox" id="menu" />
+        <div class="menu">
+          <label for="menu">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
         <ul class="itens">
           <li><a class="item" href="#noticias">Notícias</a></li>
           <li><a class="item" href="#clinica">A Clínica</a></li>
@@ -54,23 +66,38 @@
           <li><a class="item" href="#localizacao">Localização</a></li>
         </ul>
       </nav>
+
       <div class="agendar">
         <span>Agende a sua avaliação:</span>
         <div class="botoes-header">
-          <a
-            class="botao-whatsapp"
-            href="https://api.whatsapp.com/send?phone=5531995113838"
-            target="_blank"
-            ><i class="fab fa-whatsapp"></i
-          ></a>
           <a
             class="botao-instagram"
             href="https://instagram.com/michelecossofisio"
             target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
+          <a
+            class="botao-whatsapp"
+            href="https://api.whatsapp.com/send?phone=5531995113838"
+            target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
         </div>
       </div>
+    </div>
+    <div class="agendar-mobile">
+        <a
+          class="botao-instagram"
+          href="https://instagram.com/michelecossofisio"
+          target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          class="botao-whatsapp"
+          href="https://api.whatsapp.com/send?phone=5531995113838"
+          target="_blank"
+          ><i class="fab fa-whatsapp"></i
+        ></a>
     </div>
     <main class="container">
       <section class="noticias" id="noticias">
@@ -223,134 +250,191 @@
 
       <section class="profissionais" id="profissionais">
         <h1>Nossas profissionais</h1>
-        
+
         <div class="slide-container swiper">
           <div class="slide-content">
-              <div class="card-wrapper swiper-wrapper">
-  
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <span class="overlay"></span>
-  
-                          <div class="card-image">
-                              <img class="card-img" src="https://via.placeholder.com/50x50" alt="card-img">
-                          </div>
-                      </div>
-  
-                      <div class="card-content">
-                          <h2 class="name">Michele</h2>
-                          <span class="subtitulo">Fisioterapeuta Proprietária</span>
-                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
 
-                      </div>
+                  <div class="card-image">
+                    <img
+                      class="card-img"
+                      src="https://via.placeholder.com/50x50"
+                      alt="card-img"
+                    />
                   </div>
-                  
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <span class="overlay"></span>
-  
-                          <div class="card-image">
-                              <img class="card-img" src="https://via.placeholder.com/50x50" alt="card-img">
-                          </div>
-                      </div>
-  
-                      <div class="card-content">
-                          <h2 class="name">Karol</h2>
-                          <span class="subtitulo">Fisioterapeuta</span>
-                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
-                      </div>
-                  </div>
-                  
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <span class="overlay"></span>
-  
-                          <div class="card-image">
-                              <img class="card-img" src="https://via.placeholder.com/50x50" alt="card-img">
-                          </div>
-                      </div>
-  
-                      <div class="card-content">
-                          <h2 class="name">Talita</h2>
-                          <span class="subtitulo">Fisioterapeuta</span>
-                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
-                      </div>
-                  </div>
-                  
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <span class="overlay"></span>
-  
-                          <div class="card-image">
-                              <img class="card-img" src="https://via.placeholder.com/50x50" alt="card-img">
-                          </div>
-                      </div>
-  
-                      <div class="card-content">
-                          <h2 class="name">Juliana</h2>
-                          <span class="subtitulo">Fisioterapeuta</span>
-                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
-                      </div>
-                  </div>
-                  
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <span class="overlay"></span>
-  
-                          <div class="card-image">
-                              <img class="card-img" src="https://via.placeholder.com/50x50" alt="card-img">
-                          </div>
-                      </div>
-  
-                      <div class="card-content">
-                          <h2 class="name">Naftaly</h2>
-                          <span class="subtitulo">Fisioterapeuta</span>
-                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
-                      </div>
-                  </div>
-                  
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <span class="overlay"></span>
-  
-                          <div class="card-image">
-                              <img class="card-img" src="https://via.placeholder.com/50x50" alt="card-img">
-                          </div>
-                      </div>
-  
-                      <div class="card-content">
-                          <h2 class="name">Silvia</h2>
-                          <span class="subtitulo">Fisioterapeuta</span>
-                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
-                      </div>
-                  </div>
-                  
-                  <div class="card swiper-slide">
-                      <div class="image-content">
-                          <span class="overlay"></span>
-  
-                          <div class="card-image">
-                              <img class="card-img" src="https://via.placeholder.com/50x50" alt="card-img">
-                          </div>
-                      </div>
-  
-                      <div class="card-content">
-                          <h2 class="name">Amanda</h2>
-                          <span class="subtitulo">Fisioterapeuta</span>
-                          <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi cum est ipsam omnis asperiores nemo. Minima reprehenderit voluptatum esse animi omnis doloribus maiores, odit dignissimos ea quaerat excepturi id! Iusto.</p>
-                      </div>
-                  </div>
-                  
-                 
-                  
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Michele</h2>
+                  <span class="subtitulo">Fisioterapeuta Proprietária</span>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Modi cum est ipsam omnis asperiores nemo. Minima
+                    reprehenderit voluptatum esse animi omnis doloribus maiores,
+                    odit dignissimos ea quaerat excepturi id! Iusto.
+                  </p>
+                </div>
               </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      class="card-img"
+                      src="https://via.placeholder.com/50x50"
+                      alt="card-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Karol</h2>
+                  <span class="subtitulo">Fisioterapeuta</span>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Modi cum est ipsam omnis asperiores nemo. Minima
+                    reprehenderit voluptatum esse animi omnis doloribus maiores,
+                    odit dignissimos ea quaerat excepturi id! Iusto.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      class="card-img"
+                      src="https://via.placeholder.com/50x50"
+                      alt="card-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Talita</h2>
+                  <span class="subtitulo">Fisioterapeuta</span>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Modi cum est ipsam omnis asperiores nemo. Minima
+                    reprehenderit voluptatum esse animi omnis doloribus maiores,
+                    odit dignissimos ea quaerat excepturi id! Iusto.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      class="card-img"
+                      src="https://via.placeholder.com/50x50"
+                      alt="card-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Juliana</h2>
+                  <span class="subtitulo">Fisioterapeuta</span>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Modi cum est ipsam omnis asperiores nemo. Minima
+                    reprehenderit voluptatum esse animi omnis doloribus maiores,
+                    odit dignissimos ea quaerat excepturi id! Iusto.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      class="card-img"
+                      src="https://via.placeholder.com/50x50"
+                      alt="card-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Naftaly</h2>
+                  <span class="subtitulo">Fisioterapeuta</span>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Modi cum est ipsam omnis asperiores nemo. Minima
+                    reprehenderit voluptatum esse animi omnis doloribus maiores,
+                    odit dignissimos ea quaerat excepturi id! Iusto.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      class="card-img"
+                      src="https://via.placeholder.com/50x50"
+                      alt="card-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Silvia</h2>
+                  <span class="subtitulo">Fisioterapeuta</span>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Modi cum est ipsam omnis asperiores nemo. Minima
+                    reprehenderit voluptatum esse animi omnis doloribus maiores,
+                    odit dignissimos ea quaerat excepturi id! Iusto.
+                  </p>
+                </div>
+              </div>
+
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img
+                      class="card-img"
+                      src="https://via.placeholder.com/50x50"
+                      alt="card-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <h2 class="name">Amanda</h2>
+                  <span class="subtitulo">Fisioterapeuta</span>
+                  <p class="description">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Modi cum est ipsam omnis asperiores nemo. Minima
+                    reprehenderit voluptatum esse animi omnis doloribus maiores,
+                    odit dignissimos ea quaerat excepturi id! Iusto.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-  
+
           <div class="swiper-button-next swiper-navBtn"></div>
           <div class="swiper-button-prev swiper-navBtn"></div>
           <div class="swiper-pagination"></div>
-      </div>
-
+        </div>
       </section>
 
       <section class="diferenciais" id="diferenciais">
@@ -358,14 +442,33 @@
         <div class="container">
           <div class="conteudo">
             <ul class="itens-diferenciais">
-                <li><i class="fa-solid fa-list"></i>Acompanhamento multidisciplinar</li>
-                <li><i class="fa-solid fa-shield-heart"></i>Tratamentos humanizados</li>
-                <li><i class="fa-solid fa-location-dot"></i>Tudo que você precisa em um só lugar</li>
-                <li><i class="fa-solid fa-couch"></i>Espaço amplo para melhor comodidade de nossos pacientes e alunos</li>
-                <li><i class="fa-solid fa-car-side"></i>Vaga exclusiva de estacionamento</li>
-                <li><i class="fa-solid fa-percent"></i>Alunos do Pilates tem condições especiais em todos os nossos serviços</li>
-                <li><i class="fa-solid fa-people-group"></i>Turmas reduzidas</li>
-                <li><i class="fa-solid fa-house-circle-check"></i>Excelente Localização</li>
+              <li>
+                <i class="fa-solid fa-list"></i>Acompanhamento multidisciplinar
+              </li>
+              <li>
+                <i class="fa-solid fa-shield-heart"></i>Tratamentos humanizados
+              </li>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>Tudo que você precisa em
+                um só lugar
+              </li>
+              <li>
+                <i class="fa-solid fa-couch"></i>Espaço amplo para melhor
+                comodidade de nossos pacientes e alunos
+              </li>
+              <li>
+                <i class="fa-solid fa-car-side"></i>Vaga exclusiva de
+                estacionamento
+              </li>
+              <li>
+                <i class="fa-solid fa-percent"></i>Alunos do Pilates tem
+                condições especiais em todos os nossos serviços
+              </li>
+              <li><i class="fa-solid fa-people-group"></i>Turmas reduzidas</li>
+              <li>
+                <i class="fa-solid fa-house-circle-check"></i>Excelente
+                Localização
+              </li>
             </ul>
           </div>
           <div class="img-diferenciais">
@@ -377,15 +480,65 @@
       <section class="galeria" id="galeria">
         <h1>Galeria de fotos</h1>
         <div class="container">
-          <figure class="itemGaleria item01"><img src="src/images/fisioterapia-1.jpg" alt="imagem 01" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item02"><img src="src/images/fisioterapia.jpg" alt="imagem 02" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item03"><img src="src/images/hipopressivo.jpg" alt="imagem 03" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item04"><img src="src/images/Mckenzie.jpg" alt="imagem 04" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item05"><img src="src/images/neopilates.jpg" alt="imagem 05" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item06"><img src="src/images/quiropraxia.jpg" alt="imagem 06" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item07"><img src="src/images/pilates.jpg" alt="imagem 07" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item08"><img src="src/images/rpg.jpg" alt="imagem 08" class="imgGaleria"/></figure>
-          <figure class="itemGaleria item09"><img src="src/images/pilates-1.jpeg" alt="imagem 09" class="imgGaleria"/></figure>
+          <figure class="itemGaleria item01">
+            <img
+              src="src/images/fisioterapia-1.jpg"
+              alt="imagem 01"
+              class="imgGaleria"
+            />
+          </figure>
+          <figure class="itemGaleria item02">
+            <img
+              src="src/images/fisioterapia.jpg"
+              alt="imagem 02"
+              class="imgGaleria"
+            />
+          </figure>
+          <figure class="itemGaleria item03">
+            <img
+              src="src/images/hipopressivo.jpg"
+              alt="imagem 03"
+              class="imgGaleria"
+            />
+          </figure>
+          <figure class="itemGaleria item04">
+            <img
+              src="src/images/Mckenzie.jpg"
+              alt="imagem 04"
+              class="imgGaleria"
+            />
+          </figure>
+          <figure class="itemGaleria item05">
+            <img
+              src="src/images/neopilates.jpg"
+              alt="imagem 05"
+              class="imgGaleria"
+            />
+          </figure>
+          <figure class="itemGaleria item06">
+            <img
+              src="src/images/quiropraxia.jpg"
+              alt="imagem 06"
+              class="imgGaleria"
+            />
+          </figure>
+          <figure class="itemGaleria item07">
+            <img
+              src="src/images/pilates.jpg"
+              alt="imagem 07"
+              class="imgGaleria"
+            />
+          </figure>
+          <figure class="itemGaleria item08">
+            <img src="src/images/rpg.jpg" alt="imagem 08" class="imgGaleria" />
+          </figure>
+          <figure class="itemGaleria item09">
+            <img
+              src="src/images/pilates-1.jpeg"
+              alt="imagem 09"
+              class="imgGaleria"
+            />
+          </figure>
         </div>
       </section>
 
@@ -402,7 +555,13 @@
                 <i class="fa-solid fa-caret-down"></i>
               </h2>
               <p class="resposta">
-                Qualquer pessoa pode praticar! A maior prova disso é o seu mentor e criador, Joseph Hubertus Pilates, que foi uma criança raquítica e asmática e desenvolveu a técnica depois de passar a vida inteira pesquisando técnicas de desenvolvimento corporal para melhorar dos seus males. As pessoas que têm problemas na coluna cervical precisam de um pouco mais de atenção, mas, mesmo assim, não são e nem devem ser proibidas de praticá-lo.
+                Qualquer pessoa pode praticar! A maior prova disso é o seu
+                mentor e criador, Joseph Hubertus Pilates, que foi uma criança
+                raquítica e asmática e desenvolveu a técnica depois de passar a
+                vida inteira pesquisando técnicas de desenvolvimento corporal
+                para melhorar dos seus males. As pessoas que têm problemas na
+                coluna cervical precisam de um pouco mais de atenção, mas, mesmo
+                assim, não são e nem devem ser proibidas de praticá-lo.
               </p>
             </li>
             <li class="item">
@@ -411,7 +570,12 @@
                 <i class="fa-solid fa-caret-down"></i>
               </h2>
               <p class="resposta">
-                O Pilates é indicado tanto para as pessoas que o procuram como auxílio nos tratamentos fisioterápicos, quanto para as que desejam apenas praticar um exercício completo. No entanto dores nas costas, má postura e problemas nas articulações, são os principais casos onde ele é indicado, pois beneficia o fortalecimento dos músculos posturais e estabilizadores.
+                O Pilates é indicado tanto para as pessoas que o procuram como
+                auxílio nos tratamentos fisioterápicos, quanto para as que
+                desejam apenas praticar um exercício completo. No entanto dores
+                nas costas, má postura e problemas nas articulações, são os
+                principais casos onde ele é indicado, pois beneficia o
+                fortalecimento dos músculos posturais e estabilizadores.
               </p>
             </li>
             <li class="item">
@@ -420,7 +584,13 @@
                 <i class="fa-solid fa-caret-down"></i>
               </h2>
               <p class="resposta">
-                Com certeza. No pilates, a respiração é muito importante. Realizá-la corretamente, expandindo bem a caixa torácica e aproveitando ao máximo os alvéolos pulmonares, exige foco. Por outro lado, os movimentos também requerem concentração e consciência corporal porque, muitas vezes, são executados em superfícies móveis, flexíveis ou penduradas, que exigem equilíbrio e força. 
+                Com certeza. No pilates, a respiração é muito importante.
+                Realizá-la corretamente, expandindo bem a caixa torácica e
+                aproveitando ao máximo os alvéolos pulmonares, exige foco. Por
+                outro lado, os movimentos também requerem concentração e
+                consciência corporal porque, muitas vezes, são executados em
+                superfícies móveis, flexíveis ou penduradas, que exigem
+                equilíbrio e força.
               </p>
             </li>
             <li class="item">
@@ -429,7 +599,9 @@
                 <i class="fa-solid fa-caret-down"></i>
               </h2>
               <p class="resposta">
-                No Pilates a atenção constante à respiração e postura a cada movimento é indispensável. No mais, vista uma roupa confortável, suas sapatilhas e aproveite a aula!
+                No Pilates a atenção constante à respiração e postura a cada
+                movimento é indispensável. No mais, vista uma roupa confortável,
+                suas sapatilhas e aproveite a aula!
               </p>
             </li>
             <li class="item">
@@ -438,7 +610,10 @@
                 <i class="fa-solid fa-caret-down"></i>
               </h2>
               <p class="resposta">
-                Os exercícios do Pilates exigem força, sim, mas não são como os aeróbicos que têm relação direta com perda de peso. Com o ganho de musculatura, consequentemente, o metabolismo acelera e ocasiona o gasto calórico.
+                Os exercícios do Pilates exigem força, sim, mas não são como os
+                aeróbicos que têm relação direta com perda de peso. Com o ganho
+                de musculatura, consequentemente, o metabolismo acelera e
+                ocasiona o gasto calórico.
               </p>
             </li>
             <li class="item">
@@ -456,14 +631,18 @@
                 <i class="fa-solid fa-caret-down"></i>
               </h2>
               <p class="resposta">
-                Sim, a atividade pode ajudar a prevenir principalmente as doenças chamadas "modernas": má postura, tendinite, encurtamento, dor de cabeça, falta de disposição e ansiedade.
-                Sentiu-se seguro e deseja conhecer melhor essa técnica que conquista diariamente milhares de adeptos pelo mundo? Venha para a Pure Pilates!
+                Sim, a atividade pode ajudar a prevenir principalmente as
+                doenças chamadas "modernas": má postura, tendinite,
+                encurtamento, dor de cabeça, falta de disposição e ansiedade.
+                Sentiu-se seguro e deseja conhecer melhor essa técnica que
+                conquista diariamente milhares de adeptos pelo mundo? Venha para
+                a Pure Pilates!
               </p>
             </li>
           </ul>
         </div>
       </section>
-      
+
       <footer class="localizacao" id="localizacao">
         <h1>Localização</h1>
         <div class="container">
@@ -545,10 +724,10 @@
               </fieldset>
 
               <div id="botoes" class="botoes-form">
-                <button class="botao enviar" type="button" value="enviar">
+                <button class="botao" id="botao-enviar" type="button" value="enviar">
                   Enviar
                 </button>
-                <button class="botao limpar" type="reset" value="limpar">
+                <button class="botao" id="botao-limpar" type="reset" value="limpar">
                   Limpar
                 </button>
               </div>
@@ -556,20 +735,38 @@
           </div>
         </div>
         <div class="copy">
-        <p>&copy; 2023 | Todos os direitos reservados | Desenvolvido por <strong>Peter Douglas</strong> | 
-  <a href="https://www.linkedin.com/in/peterdouglas08/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-  <a href="https://www.github.com/peterdouglas08" target="_blank"><i class="fab fa-github"></i></a>
-  <a href="https://www.instagram.com/peterdouglas08" target="_blank"><i class="fab fa-instagram"></i></a>
-  <a href="https://api.whatsapp.com/send?phone=5531995547786" target="_blank"><i class="fab fa-whatsapp"></i></a></p>
-      </div>
+          <p>
+            &copy; 2023 | Todos os direitos reservados | Desenvolvido por
+            <strong>Peter Douglas</strong> |
+            <a
+              href="https://www.linkedin.com/in/peterdouglas08/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="https://www.github.com/peterdouglas08" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a href="https://www.instagram.com/peterdouglas08" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5531995547786"
+              target="_blank"
+              ><i class="fab fa-whatsapp"></i
+            ></a>
+          </p>
+        </div>
       </footer>
     </main>
 
+    <script type="text/javascript" src="./src/js/menu.js"></script>
     <script type="text/javascript" src="./src/js/form.js"></script>
     <script type="text/javascript" src="./src/js/perguntas.js"></script>
     <script type="text/javascript" src="./src/js/slider.js"></script>
     <script type="text/javascript" src="./src/js/swiper-bundle.min.js"></script>
-    <script type="text/javascript" src="./src/js/script-profissionais.js"></script>
-
+    <script
+      type="text/javascript"
+      src="./src/js/script-profissionais.js"
+    ></script>
   </body>
 </html>

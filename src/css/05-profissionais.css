@@ -152,7 +152,7 @@ section.profissionais {
     background-color: var(--cor-primeira);
     opacity: 1;
 }
-#85C5CF
+/* #85C5CF */
 .swiper-pagination.bullet-active {
     background-color: var(--cor-segunda);
 }

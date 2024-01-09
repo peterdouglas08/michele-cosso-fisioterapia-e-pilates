@@ -46,7 +46,7 @@ section.clinica {
 
 @media (max-width: 1400px) {
     section.clinica {
-        margin: 50px 50px 100px 300px;
+        margin: 150px 50px 100px 300px;
     }
 
     .clinica .container {

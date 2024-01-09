@@ -17,8 +17,8 @@ section.perguntas-frequentes {
 .perguntas-frequentes .conteudo {
     background-color: var(--cor-terceira);
     border-radius: 20px;
-    height: 550px;
-    padding: 0px 50px;
+    height: auto;
+    padding: 30px 50px;
     gap: 50px;
     display: flex;
     align-items: center;
@@ -98,10 +98,7 @@ section.perguntas-frequentes {
     }
     
     .perguntas-frequentes .img-duvidas img {
-        position: absolute;
-        top: 0;
-        left: 0px;
-        width: 20%;
+display: none;
     }
     
     .perguntas-frequentes .itens {
@@ -159,11 +156,19 @@ section.perguntas-frequentes {
         width: 30%;
     }
 
+    .perguntas-frequentes .conteudo{
+        padding: 0 10px;
+    }
+
     .perguntas-frequentes .itens {
         transform: scale(0.9);
     }
 
     .perguntas-frequentes .itens .item .pergunta .fa-caret-down {
         right: -8%;
+    }
+
+    .perguntas-frequentes .itens .item .resposta {
+        margin-right: 15px;
     }
 }

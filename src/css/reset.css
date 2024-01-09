@@ -15,7 +15,6 @@ html, body{
     background-color: var(--cor-terceira);
     background-image: url(../images/background.jpg);
     background-blend-mode: overlay;
-    scroll-behavior: smooth;
 }
 
 ul, li {
@@ -33,4 +32,53 @@ textarea {
 
 ::placeholder {
     font-family: 'Open Sans', sans-serif;
+}
+
+@media (max-width: 1280px) {
+    .agendar-mobile {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        z-index: 100;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .agendar-mobile .botoes-header {
+        display: flex;
+        gap: 10px;
+    }
+
+    .agendar-mobile .botao-instagram i {
+        font-size: var(--fonte-tamanho-5);
+        background-color: rgb(224, 32, 151);
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: var(--cor-quarta);
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    .agendar-mobile .botao-instagram i:hover {
+        transform: scale(120%);
+        transition: .2s ease-in-out;
+    }
+
+    .agendar-mobile .botao-whatsapp i {
+        font-size: var(--fonte-tamanho-5);
+        background-color: rgb(28, 199, 13);
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: var(--cor-quarta);
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+
+    .agendar-mobile .botao-whatsapp i:hover {
+        transform: scale(120%);
+        transition: .2s ease-in-out;
+    }
 }
